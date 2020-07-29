@@ -1,0 +1,62 @@
+@media(max-width: 375px) {
+    body {
+        background-image: url(../images/bg-mobile.svg);
+        background-repeat: no-repeat;
+        background-color: hsl(257, 40%, 49%);
+    }
+    .logo {
+        margin-left: 30px;
+        width: 40%;
+    }
+    .image {
+        width: 85%;
+        margin-left: 25px;
+    }
+    .title {
+        font-size: 20px;
+        margin-top: 40px;
+        text-align: center;
+    }
+    .description {
+        margin-top: 20px;
+        text-align: center;
+        font-size: 15px;
+    }
+}
+
+@media(min-width: 376px) {
+    body {
+        background-image: url(../images/bg-desktop.svg);
+        background-color: hsl(257, 40%, 49%);
+    }
+    .padding-left250 {
+        padding-left: 250px;
+    }
+    .padding-left {
+        padding-left: 100px;
+    }
+    .icons {
+        color: #FFFFFF;
+        margin-right: 415px;
+    }
+}
+
+.title, .description {
+    color: #FFFFFF;
+}
+
+.button {
+    border-radius: 20px;
+    box-shadow: 1px 1px hsl(257, 40%, 49%);
+    background-color: #FFFFFF;
+    color: hsl(257, 40%, 49%);
+}
+
+.button:hover {
+    background-color: hsl(257, 40%, 49%);
+    color: #FFFFFF;
+    border: 1px solid #FFFFFF;
+}
+
+
+
